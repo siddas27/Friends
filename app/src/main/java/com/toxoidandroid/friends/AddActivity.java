@@ -47,6 +47,7 @@ public class AddActivity extends FragmentActivity{
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                     finish();
+                    
                 } else {
                     Toast.makeText(getApplicationContext(), "Please ensure data entered is valid", Toast.LENGTH_LONG).show();
                 }
